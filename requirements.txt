@@ -1,0 +1,6 @@
+# 배포(Streamlit Cloud)용 — 테스트를 통과한 버전으로 고정
+streamlit==1.67.0
+openai==3.46.0
+pypdf==7.0.0
+cryptography==50.0.2   # AES 암호화(권한 제한) PDF 처리에 필요
+python-dotenv==1.2.4
