@@ -1,0 +1,27 @@
+[server]
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+# 라이트/다크 모드를 모두 유지하면서 강조색만 지정한다.
+[theme.light]
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F5FB"
+textColor = "#1F2333"
+borderColor = "#E3E5EF"
+
+[theme.dark]
+primaryColor = "#8B87FF"
+backgroundColor = "#11131A"
+secondaryBackgroundColor = "#1B1E29"
+textColor = "#E8E9F0"
+borderColor = "#2C3040"
+
+[theme]
+baseRadius = "0.6rem"
+showSidebarBorder = true
